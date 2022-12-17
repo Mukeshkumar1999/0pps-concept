@@ -22,6 +22,7 @@ class Cylender1 {
     public Cylender1() {
         height = 0;
         radius = 0;
+
     }
 
     public Cylender1(double r, int h) {
@@ -35,6 +36,13 @@ class Cylender1 {
 
     public void disPerimeter() {
         System.out.println(4 * radius + 2 * height);
+    }
+
+    public boolean getdisra() {
+        if (radius > 0)
+            return true;
+        else
+            return false;
     }
 
 }
@@ -51,6 +59,7 @@ public class cylender {
 
         System.out.println(c1.getHeight());
         System.out.println(c1.getRadius());
+        System.out.println(c1.getdisra());
     }
 
 }
