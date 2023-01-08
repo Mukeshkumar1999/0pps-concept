@@ -32,8 +32,8 @@ public class circle {
     public static void main(String[] args) {
         Cylender c = new Cylender();
 
-        c.radius = 10;
-        c.height = 10;
+        c.radius = 11;
+        c.height = 11;
 
         System.out.println(c.area());
         System.out.println(c.perimeter());
