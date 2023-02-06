@@ -27,7 +27,7 @@ class Costomer implements Member {
     }
 
     public void callBack() {
-        System.out.println("ok i am visiting" + " " + name);
+        System.out.println("ok i am visiting your Shope" + " " + name);
     }
 }
 

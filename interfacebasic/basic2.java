@@ -1,3 +1,4 @@
+// java dose not have multiple inheretance ..becouse -> its possible only using of interfaces...
 class phone {
     void call() {
         System.out.println("Phone Calling");
