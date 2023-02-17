@@ -63,9 +63,9 @@ public class arrayOfObj {
 
         // System.out.println(sub[0].disStatus());
 
-        sub[0].setObtain(30);
+        sub[0].setObtain(55);
         System.out.println(sub[0].disStatus());
-        System.out.println(sub[0].getObtM());
+        // System.out.println(sub[0].getObtM());
 
     }
 }
