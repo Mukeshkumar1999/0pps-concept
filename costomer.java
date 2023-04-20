@@ -53,7 +53,8 @@ class Costomer1 {
 public class costomer {
     public static void main(String[] args) {
         Costomer1 cr = new Costomer1("Ram-123", "Ganesha", "punjab", "7408842136");
-        // cr.setName("Ram");
+        // cr.setName("Rama");
+        cr.setPhone("8175053375");
         cr.getCostId();
         cr.getName();
         cr.getAddres();

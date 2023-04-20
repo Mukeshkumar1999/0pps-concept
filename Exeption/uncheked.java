@@ -1,4 +1,6 @@
 public class uncheked {
+
+    // these are Exeptions class...
     static void fun1() {
         try {
             System.out.println(10 / 0);
